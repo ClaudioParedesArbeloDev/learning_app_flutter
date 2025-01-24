@@ -5,7 +5,8 @@ import 'package:learning_app/screens/cursos.dart';
 import 'package:learning_app/screens/blogs.dart';
 import 'package:learning_app/screens/login.dart';
 import 'package:learning_app/screens/about.dart';
-import 'package:learning_app/screens/contact.dart';
+/* import 'package:learning_app/screens/contact.dart'; */
+import 'package:learning_app/screens/users.dart';
 
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         '/blogs': (context) => const Blogs(),
         '/login': (context) => const Login(),
         '/about': (context) => const About(),
-        '/contact': (context) => const Contact(),
+        '/contact': (context) => const UsersPage(),
       }
     );
   }

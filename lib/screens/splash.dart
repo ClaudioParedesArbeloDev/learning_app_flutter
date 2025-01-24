@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:learning_app/src/customs/colors.dart';
+import 'package:learning_app/utils/colors.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});

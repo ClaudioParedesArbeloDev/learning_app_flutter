@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learning_app/src/customs/colors.dart';
+import 'package:learning_app/utils/colors.dart';
 
 class About extends StatelessWidget {
   const About({super.key});
